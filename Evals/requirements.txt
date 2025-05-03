@@ -1,1 +1,16 @@
+streamlit
+# IMPORTANT: 'agno' is likely a custom or private library.
+# Provide specific installation instructions in the README.
+# If it's installable via pip from a private repo:
+# Add '-e git+ssh://git@github.com/your_org/agno.git#egg=agno' or similar.
+# If it needs to be manually placed in the project, update the README.
+# agno
 
+markdown
+psycopg-binary # Easier dependency resolution than psycopg for many users
+pgvector>=0.2.0 # Use a recent version compatible with your setup
+python-dotenv>=1.0.0 # To load environment variables from .env file
+ollama # Might be needed if agno doesn't bundle the client
+
+# Note: The 'groq' SDK might be required if agno doesn't bundle it. Add if needed.
+# groq
