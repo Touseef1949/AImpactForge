@@ -1,1 +1,7 @@
-
+fastapi
+uvicorn[standard]  # Include [standard] for performance benefits if needed, or just uvicorn
+python-dotenv
+httpx
+kiteconnect
+# Add the specific MCP package here!
+# Example: mcp-server (You need to confirm the actual package name for mcp.server.fastmcp)
